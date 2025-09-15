@@ -256,6 +256,40 @@
 
 /* media запросы */
 
+@media (width >= 768px) {
+  .header {
+    min-block-size: 1024px;
+    padding: 0;
+    padding-right: 20px;
+    margin-bottom: 60px;
+  }
+
+  .header__title {
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    justify-self: start;
+    align-self: center;
+  }
+
+  .header__subtitle {
+    max-inline-size: 364px;
+    justify-self: end;
+    align-self: start;
+    padding: 0;
+    margin-top: 40px;
+  }
+
+  .header__theme-menu {
+    align-self: end;
+    margin-bottom: 53px;
+  }
+
+  .decorative__item {
+    top: 20px;
+    right: 49px;
+  }
+}
+
+
 @media (width >= 900px) {
   .header__theme-menu {
     justify-self: center;
