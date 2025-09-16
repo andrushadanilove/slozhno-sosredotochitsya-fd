@@ -62,11 +62,6 @@
   outline: none;
 }
 
-.theme-light .header__theme-menu-button_active {
-  border: 1px solid var(--link-color);
-  pointer-events: none;
-}
-
 .header__title {
   align-self: center;
   padding-bottom: 3px;
