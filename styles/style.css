@@ -250,13 +250,13 @@
 
 .footer {
   display: flex;
-  block-size: 98vh;
-  min-block-size: 658px;
+  block-size: 100vh;
+  min-block-size: 668px;
 }
 
 .footer__title {
   margin: auto;
-  padding-bottom: 5px;
+  padding-bottom: 15px;
   color: var(--footer-color);
   font-weight: var(--font-weight-heading);
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
