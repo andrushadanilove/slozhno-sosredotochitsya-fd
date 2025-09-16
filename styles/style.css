@@ -132,7 +132,7 @@
 .decorated-zone::before {
   content: '';
   position: absolute;
-  top: 10px;
+  top: 6px;
   right: 10px;
   width: 25px;
   height: 25px;
@@ -255,13 +255,13 @@
 
 .footer {
   display: flex;
-  block-size: 100vh;
-  min-block-size: 668px;
+  block-size: 98vh;
+  min-block-size: 658px;
 }
 
 .footer__title {
   margin: auto;
-  padding-bottom: 16px;
+  padding-bottom: 5px;
   color: var(--footer-color);
   font-weight: var(--font-weight-heading);
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
@@ -332,12 +332,12 @@
 
 @media (width >= 768px) {
   .decorated-zone::after {
-    bottom: 25px;
+    bottom: 15px;
     left: 20px;
   }
 
   .decorated-zone::before {
-    top: 15px;
+    top: 18px;
     right: 20px;
   }
 }
@@ -427,6 +427,7 @@
 @media (width >= 768px) {
   .footer__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    padding-top: 15px;
   }
 }
   
