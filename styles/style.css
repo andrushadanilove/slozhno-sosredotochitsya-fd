@@ -317,7 +317,7 @@
   }
 
   .header__subtitle {
-    margin-top: 57px;
+    margin-top: 45px;
     max-inline-size: 491px;
   }
 
@@ -329,11 +329,12 @@
 
 @media (width >= 768px) {
   .decorated-zone::after {
+    bottom: 20px;
     left: 20px;
   }
 
   .decorated-zone::before {
-    top: 33px;
+    top: 20px;
     right: 20px;
   }
 }
@@ -461,36 +462,16 @@
     padding: 0px;
   }
 
-  .section-why {
-    padding-top: 13px;
-  }
-
   .section-images__container {
     margin-top: 20px;
     margin-bottom: 0px;
   }
 
   .section-images{
-    margin-bottom: 46px;
-  }
-
-  .header__theme-menu {
-    padding-top: 13px;
-  }
-
-  .decorative__item {
-    padding-top: 14px;
+    margin-bottom: 59px;
   }
 
   .decorative__item::after {
-    top: 21px;
-  }
-
-  .header__title {
-    padding-top: 24px;
-  }
-
-  .footer__title {
-    padding-top: 26px;
+    top: 8px;
   }
 }
