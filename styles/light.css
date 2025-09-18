@@ -7,7 +7,7 @@
   --title-bold-color: rgba(53, 52, 48, 1);
   --footer-color: rgba(255, 194, 230, 1);
   --button-hover-color: rgba(50, 49, 45, 0.4);
-  --link-color: rgba(53, 52, 48, 1);
+  --link-color: rgba(54, 52, 48, 1);
 }
 
 @media (prefers-color-scheme: light) {
