@@ -7,22 +7,27 @@
   --title-bold-color: rgba(53, 52, 48, 1);
   --footer-color: rgba(255, 194, 230, 1);
   --button-hover-color: rgba(50, 49, 45, 0.4);
+  --button-focus-color: rgba(53, 52, 48, 1);
+  --button-active-color: rgba(53, 52, 48, 1);
   --link-color: rgba(53, 52, 48, 1);
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --background-image: url('../images/cover-image-light.png');
-    --text-color: rgba(53, 52, 48, 1);
-    --accent-color: rgba(255, 141, 203, 1);
-    --background-color: rgba(255, 241, 247, 1);
-    --title-color: rgba(53, 52, 48, 1);
-    --title-bold-color: rgba(53, 52, 48, 1);
-    --footer-color: rgba(255, 194, 230, 1);
-    --button-hover-color: rgba(255, 0, 112, 0.4);
-    --link-color: rgba(53, 52, 48, 1);
+   --background-image: url('../images/cover-image-light.png');
+   --text-color: rgba(53, 52, 48, 1);
+   --accent-color: rgba(255, 141, 203, 1);
+   --background-color: rgba(255, 241, 247, 1);
+   --title-color: rgba(53, 52, 48, 1);
+   --title-bold-color: rgba(53, 52, 48, 1);
+   --footer-color: rgba(255, 194, 230, 1);
+   --button-hover-color: rgba(50, 49, 45, 0.4);
+   --button-focus-color: rgba(53, 52, 48, 1);
+   --button-active-color: rgba(53, 52, 48, 1);
+   --link-color: rgba(53, 52, 48, 1);
   }
-  .decorative__item {
+
+.decorative__item {
     display: none;
   }
 }

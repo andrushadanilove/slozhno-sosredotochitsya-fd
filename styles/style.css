@@ -36,11 +36,15 @@
 }
 
 .theme-light .header__theme-menu-button:focus {
-  border-bottom: 1px solid var(--button-hover-color);
+  border-bottom: 1px solid var(--button-focus-color);
   outline: none;
 }
 
 .header__theme-menu-button:hover {
+  border: 1px solid var(--button-hover-color);
+}
+
+.theme-dark .header__theme-menu-button:hover {
   border: 1px solid var(--button-hover-color);
 }
 
@@ -49,17 +53,27 @@
 }
 
 .theme-dark .header__theme-menu-button_active {
-  border: 1px solid var(--link-color);
+  border: 1px solid var(--button-active-color);
   pointer-events: none;
 }
 
 .theme-light .header__theme-menu-button_active {
-  border: 1px solid var(--link-color);
+  border: 1px solid var(--button-active-color);
   pointer-events: none;
 }
 
-.theme-dark .header__theme-menu-button:focus {
-  border-bottom: 1px solid var(--button-hover-color);
+.theme-dark .header__theme-menu-button:focus-visible {
+  border-bottom: 1px solid var(--button-focus-color);
+  outline: none;
+}
+
+.theme-auto .header__theme-menu-button_type_auto {
+  border: 1px solid var(--button-active-color);
+  pointer-events: none;
+}
+
+.theme-auto .header__theme-menu-button:focus-visible {
+  border-bottom: 1px solid var(--button-focus-color);
   outline: none;
 }
 
