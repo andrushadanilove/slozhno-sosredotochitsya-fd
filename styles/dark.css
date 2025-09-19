@@ -27,7 +27,9 @@
   --button-focus-color: rgba(255, 0, 112, 1);
   --button-hover-color: rgba(255, 0, 112, 0.4);
   --button-active-color: rgba(255, 0, 112, 1);
+  
   } 
+
 }
 
 .theme-dark .decorative__item {
